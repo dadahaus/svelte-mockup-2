@@ -4,12 +4,12 @@
       <div class="section-wrapper">
         <div class="content">
           <h1 class="hero-header h-1">whatevs</h1>
-          <h1 class="hero-header h-1">whatesvs</h1>
-          <h1 class="hero-header h-1">whateasdvs</h1>
+          <h1 class="hero-header h-2">whatesvs</h1>
+          <h1 class="hero-header h-3">whateasdvs</h1>
         </div>
         <div class="pin-wrapper">
-          <div class="image-wrapper">
-            <img class="image" src="../../assets/1.png" alt="some pic" />
+          <div class="image-wrapper" id="heroImage">
+            <img class="image" src="../../assets/img.jpg" alt="some pic" />
           </div>
         </div>
       </div>
@@ -59,10 +59,31 @@
             max-width: 840px;
             margin-right: auto;
             margin-left: auto;
-         
+            color: hsl(0, 0%, 22%);
+
+
+
+            
             h1 {
               font-size: 7rem;
               font-weight: 400;
+              line-height: 5rem;
+              // text-transform: uppercase;
+            }
+            h2 {
+              font-size: 5rem;
+              font-weight: 400;
+              line-height: 5rem;
+
+              // text-transform: uppercase;
+            }
+            h3 {
+              font-size: 3rem;
+              font-weight: 400;
+              line-height: 1rem;
+              z-index: 1000;
+
+
               // text-transform: uppercase;
             }
           }
@@ -71,6 +92,7 @@
             overflow: hidden;
             width: 100%;
             padding-top: 50%;
+
             .image {
               position: absolute;
               left: 0;
@@ -80,6 +102,8 @@
               width: 100%;
               height: 100%;
               object-fit: cover;
+              z-index: -1;
+
             }
           }
         }
