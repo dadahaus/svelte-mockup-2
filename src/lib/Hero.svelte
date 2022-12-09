@@ -21,24 +21,10 @@
           <div class="image-wrapper" id="heroImage">
             <img class="image" src="../../assets/3.png" alt="some pic" />
           </div>
- 
         </div>
       </div>
     </section>
-    <!-- first section -->
-
-    <section class="section copy">
-      <div class="section-wrapper">
-        <div class="content">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-            nostrum consectetur omnis totam et consequatur sint sit molestiae!
-            Voluptate fugit libero dignissimos totam placeat, voluptates animi
-            ut necessitatibus praesentium corporis?
-          </p>
-        </div>
-      </div>
-    </section>
+    <!-- second section -->
   </div>
 </div>
 
@@ -47,8 +33,8 @@
     overflow: hidden;
 
     .hero-scroller {
-      height: 250vh;
-      overflow: hidden;
+      min-height: 100vh;
+      // overflow: hidden;
 
       .section {
         position: relative;
@@ -59,13 +45,15 @@
       }
 
       .copy {
+        padding: 1rem;
+        // margin-bottom: -2rem;
         background: hsl(0, 100%, 97%), 0%, 100%;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
 
         .section-wrapper {
-          max-width: 1400px;
+
+          min-height: 80vh;
 
           .content {
             width: 100%;
@@ -78,30 +66,34 @@
             .hero-header {
               text-transform: uppercase;
               max-width: 20ch;
+              margin-top: 2rem;
             }
           }
 
-          .pin-wrapper{
+          .pin-wrapper {
+            margin-top: -3rem;
+            min-height: 50vh;
             display: flex;
             flex-flow: row nowrap;
-            gap: 3rem;
+            gap: 2rem;
             justify-content: center;
-            align-items: center;
+            width: 100vw;
+            // align-items: flex-end;
             // overflow: hidden;
           }
           .image-wrapper {
             position: relative;
-            overflow: hidden;
-            width: 100%;
-            padding-top: 50%;
-            padding-bottom: 50%;
+            // overflow: hidden;
+            width: 180%;
+
             z-index: -1;
-            border-radius: 5rem;
             display: flex;
             align-items: center;
             justify-content: center;
 
             .image {
+              border-radius: 2rem;
+
               position: absolute;
               left: 0;
               top: 0;
@@ -111,7 +103,6 @@
               height: 50%;
               object-fit: cover;
               z-index: -1;
-              
             }
           }
         }
