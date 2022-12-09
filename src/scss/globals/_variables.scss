@@ -1,0 +1,36 @@
+:root {
+    --button-padding: 0.3rem 0.7rem;
+    --clr-secondary: #faf4ed;
+    --clr-primary: #ffffff;
+    --clr-primary-dark: #CC4C1F;
+    --clr-whiteish: rgb(242, 241, 241);
+
+
+    --clr-primary-hover: #29e6a7;
+    --clr-gray100: #f9fbff;
+    --clr-gray150: #ffe8e8;
+    --clr-gray200: #eef1f6;
+    --clr-gray300: #e1e5ee;
+    --clr-gray400: #767b91;
+    --clr-gray500: #4f546c;
+    --radius: 0.2rem;
+
+
+    font-size: 100%;
+    --header1: calc(0.4rem + 15vw);
+    --header2: calc(0.4rem + 10vw);
+    --header3: calc(0.4rem + 5vw);
+    --header4: calc(0.4rem + 3vw);
+    --header5: calc(0.4rem + 1.5vw);
+    --height: calc(30vh + 40vw);
+    --text: calc(0.7rem + 1vw);
+    --big: calc(20rem + 10vw);
+    --medium: calc(16rem + 10vw);
+    --small: calc(8rem + 10vw);
+    /* --special-color: #906272; */
+    --background-color: #414141;
+    --gray-text: #525252;
+    --img-height: calc(30% + 10vh);
+    --img-width: calc(30% + 10vw);
+    scroll-behavior: smooth;
+}

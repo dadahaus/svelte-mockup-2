@@ -1,18 +1,11 @@
 @forward 'boilerplate';
 @forward 'typography';
-@forward 'hero';
+@forward 'classes';
+@forward 'variables';
 
-// section {
-//     height: 100vh;
-//     width: 100vw;
-//     display: flex;
-//     flex-flow: column;
-//     justify-content: center;
-//     align-items: center;
-//     flex-shrink: 0;
-// }
+section {}
 
-// .wrapper {
-//     display: flex;
-//     flex-flow: nowrap;
-// }
+.wrapper {
+    display: flex;
+    flex-flow: nowrap;
+}
