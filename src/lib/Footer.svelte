@@ -6,7 +6,7 @@
     <a href="http://"><div /></a>
 
   </div>
-<a class="three" href="http://"><div>or just simply write <img class="mail" src="../../assets/mail.svg" alt="mail"></div></a>
+<a class="three" href="http://"><div>or just simply write <img class="mail" src="../../assets/mail-2.svg" alt="mail"></div></a>
 </footer>
 
 <style lang="scss">
