@@ -1,13 +1,29 @@
 <section class={$$props.class}>
-  <h1>hello</h1>
+  <div class="one">
+    <a href="http://"><div /></a>
+  </div>
 </section>
 
 <style lang="scss">
   .section {
     &__3 {
-      background: center/ cover no-repeat #eee url("../../assets/bgr-1.gif");
-      h1{
-          font-size: 7rem;
+      margin-top: -5%;
+      height: 50vh;
+
+      place-content: center;
+
+
+      .one {
+        display: flex;
+        gap: 1rem;
+
+        & > * {
+          height: var(--small);
+          width: var(--big);
+          &:nth-child(1) {
+            background: center/ cover no-repeat #eee url("../../assets/25.png");
+          }
+        }
       }
     }
   }

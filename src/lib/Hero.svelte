@@ -31,9 +31,13 @@
 <style lang="scss">
   .smooth-scroll {
     overflow: hidden;
+    margin-bottom: -35%;
+
+
 
     .hero-scroller {
       min-height: 100vh;
+      
       // overflow: hidden;
 
       .section {
@@ -47,7 +51,7 @@
       .copy {
         padding: 1rem;
         // margin-bottom: -2rem;
-        background: hsl(0, 100%, 97%), 0%, 100%;
+        
         display: flex;
         justify-content: flex-start;
 
@@ -60,7 +64,7 @@
 
             margin-right: auto;
             margin-left: auto;
-            color: hsl(0, 0%, 22%);
+
             z-index: 99;
             margin-bottom: 4rem;
             .hero-header {
@@ -71,7 +75,7 @@
           }
 
           .pin-wrapper {
-            margin-top: -3rem;
+            // margin-top: -3rem;
             min-height: 50vh;
             display: flex;
             flex-flow: row nowrap;

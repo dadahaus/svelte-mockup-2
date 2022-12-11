@@ -1,6 +1,6 @@
 <footer>
-  <h1>this is the footer</h1>
-  <h1>and it's pretty rad</h1>
+<div class="one"><h2>don't hesitate to contact us</h2></div>
+<div class="two"><h1>hello</h1></div>
 </footer>
 
 <style lang="scss">
@@ -8,12 +8,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100vh;
+    height: auto;
     width: 100vw;
     padding: 4rem;
-    h1 {
-      font-size: 6rem;
-      line-height: 6rem;
+
+    
+    .one{
+      text-transform: uppercase;
+      flex-basis: 50%;
+    }
+    .two{
+      flex-basis: 50%;
     }
   }
 </style>
