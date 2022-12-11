@@ -38,10 +38,10 @@
           background: center/ cover no-repeat url("../../assets/instagram.svg");
         }
         &:nth-child(2) {
-          background: center/ cover no-repeat url("../../assets/instagram.svg");
+          background: center/ cover no-repeat url("../../assets/dribbble.svg");
         }
         &:nth-child(3) {
-          background: center/ cover no-repeat url("../../assets/instagram.svg");
+          background: center/ cover no-repeat url("../../assets/behance-2.svg");
         }
       }
     }
