@@ -18,6 +18,7 @@
     height: auto;
     width: 100vw;
     padding: 4rem;
+    gap: 4rem;
 
     .one {
       text-transform: uppercase;
@@ -28,10 +29,11 @@
       flex-basis: 50%;
       justify-content: space-evenly;
       gap: 1rem;
+      flex-flow: wrap;
 
       & > * {
-        height: 50px;
-        width: 50px;
+        height: 3rem;
+        width: 3rem;
         &:nth-child(1) {
           background: center/ cover no-repeat url("../../assets/instagram.svg");
         }
@@ -48,8 +50,9 @@
       bottom: 10%;
       right: 10%;
       .mail{
-        width: 50px;
-        height: 50px;
+        width: 2rem;
+        height: 2rem;
+        transform: translateY(30%);
       }
     }
   }
