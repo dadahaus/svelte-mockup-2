@@ -1,5 +1,5 @@
 <section class={$$props.class}>
-  <h3 class="one">chooooooose your ideation</h3>
+  <h3 class="one">cho0se your ideation</h3>
   <div class="two">
     <a href="http://"><div /></a>
   </div>
@@ -19,7 +19,7 @@
       flex-flow: column;
       .one {
         max-width: 10ch;
-        text-align: center;
+        // text-align: center;
 
         z-index: 99;
       }
